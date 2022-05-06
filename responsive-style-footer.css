@@ -1,0 +1,56 @@
+footer {
+    position: fixed;
+    width: 100%;
+    background-color: #1b357e;
+    bottom: 0;
+    height: 3em;
+    padding: 1em 0;
+
+}
+
+.footer-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    width: 100%;
+    min-height: 50px;
+
+
+}
+
+.logo-ford {
+    width: fit-content;
+    margin: 0 1vh;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.social {
+    width: fit-content;
+    display: flex;
+}
+
+
+.social>a {
+    flex: 1 1 auto
+}
+
+.social>a>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.copyright-text {
+    color: white;
+}
+
+@media screen and (max-width: 480px) {
+    .copyright-text {
+        font-size: 3vw;
+    }
+}

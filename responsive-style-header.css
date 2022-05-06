@@ -1,0 +1,41 @@
+.box-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-box {
+    max-width: 20%;
+}
+
+.logo-header {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.header-navigation {
+    width: 50%;
+    height: fit-content;
+    margin: 0 auto;
+    text-align: center;
+    color: #1351d8;
+    font-weight: bold;
+    font-size: 2vw;
+}
+
+.header-links a {
+    text-decoration: none;
+}
+
+.header-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 480px) {
+    .header-navigation {
+        font-size: 4vw;
+    }
+}
